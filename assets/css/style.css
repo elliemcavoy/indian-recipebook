@@ -31,7 +31,7 @@ z-index:2;
     top:20%;
     text-align:right;
 text-transform: uppercase;
-    color:pink;
+    color:rgb(238, 136, 20);
     }
 
     #bubble span{
@@ -103,10 +103,15 @@ text-transform: uppercase;
 
 }
 
-.lashes{
+.chilli{
     z-index:1;
-    top:45%;
-    position:relative;
+    top:35%;
+    left:20%;
+    position:absolute;
+}
+
+.chilli img{
+    height:200px;
 }
 
 .grey-banner{
