@@ -2,9 +2,44 @@
     margin:0px;
 }
 
-.mylogo img{
-    width:100px;
+.navbar{
+    background-color: #6b6b69;
 }
+
+.menucontainer a{
+    color:rgb(238, 136, 20);
+    font-size:20px;
+    text-transform: uppercase;
+    
+}
+
+.menucontainer{
+    text-align:center;
+    padding: 0px;
+    padding-top:10px;
+}
+
+.mylogo{
+    padding:0px;
+}
+
+.mylogo img{
+    height:50px;
+    border-radius: 60%;
+    box-shadow:0 0 10px rgb(238, 136, 20);
+    display:block;
+    margin:auto;
+}
+
+@media screen and (min-width:768px){
+    .toggle-container{display:none;}
+}
+
+@media screen and (max-width:767px){
+    .largescreen-nav{display:none;}
+}
+
+
 
 
 #logo-container{
@@ -27,7 +62,7 @@
 #bubble{
 z-index:2;
     position:absolute;
-    left:20%;
+    left:10%;
     top:20%;
     text-align:right;
 text-transform: uppercase;
@@ -44,7 +79,7 @@ text-transform: uppercase;
         height: 173.21px;
         margin: 86.60px 0;
         background-color: #6b6b69;
-        box-shadow: 0 0 25px pink;
+        box-shadow: 0 0 25px rgb(238, 136, 20);
         border-left: solid 5px #6b6b69;
         border-right: solid 5px #6b6b69;
       }
@@ -56,7 +91,7 @@ text-transform: uppercase;
         z-index: 1;
         width: 212.13px;
         height: 212.13px;
-        box-shadow: 0 0 25px pink;
+        box-shadow: 0 0 25px rgb(238, 136, 20);
         -webkit-transform: scaleY(0.5774) rotate(-45deg);
         -ms-transform: scaleY(0.5774) rotate(-45deg);
         transform: scaleY(0.5774) rotate(-45deg);
@@ -88,6 +123,24 @@ text-transform: uppercase;
     background: inherit;
   }
 
+#button{
+  z-index:2;
+    position:absolute;
+    left:18%;
+    top:82%;
+}
+
+.login{
+    background-color: rgb(238, 136, 20);
+    border:2px solid rgb(238, 136, 20);
+    color:#6b6b69;
+    font-weight: 600;
+}
+
+.login:hover{
+    background-color:#6b6b69;
+    border:2px solid rgb(238, 136, 20);
+    color:rgb(238, 136, 20);}
  
 .about{
     padding-top:20px;
@@ -103,15 +156,29 @@ text-transform: uppercase;
 
 }
 
-.chilli{
-    z-index:1;
-    top:35%;
-    left:20%;
-    position:absolute;
+.recipeitemcontainer{
+    background-color: #6b6b69;
+    margin:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 1%;
+}
+.card1{
+    text-align:center;
+    border:0px;
 }
 
-.chilli img{
+.card1 img{
     height:200px;
+}
+
+.card-footer{
+    border:0px;
+    background-color: rgb(0,0,0,0);
+}
+
+.viewbutton{
+    background-color: rgb(238, 136, 20);
 }
 
 .grey-banner{
