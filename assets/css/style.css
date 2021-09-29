@@ -275,6 +275,13 @@ form{
     color:rgb(238, 136, 20);
 }
 
+.question{
+    padding-top:20px;
+    text-transform: uppercase;
+    color:#6b6b69;
+    font-weight: 500;
+}
+
 
 
 
