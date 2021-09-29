@@ -247,5 +247,35 @@ form{
     border:1px solid #6b6b69;
 }
 
+.form-login{
+    color:#6b6b69;
+}
+
+.form-login label{
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+.form-login input{
+    background-color: rgb(238, 136, 20, 0.5);
+    border:1px solid #6b6b69;
+}
+
+.submit-btn{
+    background-color: rgb(238, 136, 20, 0.6);
+    border:0px;
+    color:#6b6b69;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.submit-btn:hover{
+    background-color: #6b6b69;
+    color:rgb(238, 136, 20);
+}
+
+
+
 
 

@@ -80,9 +80,17 @@
         </div>
     </header>
     <section>
+        <div class="row page-heading">
+            <div class="col-12">
+                <h2>Log In</h2>
+                <i class="fas fa-pepper-hot"></i>
+                <i class="fas fa-pepper-hot"></i>
+                <i class="fas fa-pepper-hot"></i>
+            </div>
+        </div>
         <div class="row">
             <div class="col-12 form-container">
-             <form method="POST" action="">
+             <form method="POST" action="" class="form-login">
 			<div class="form-group">
 				<label for="username">Username</label>
 				<input name="username" type="text" class="form-control" placeholder="Username" required>
@@ -90,9 +98,9 @@
 			<div class="form-group">
 				<label for="user_password">Password</label>
 				<input class="form-control" name="password" type="password" placeholder="Password" required>
-                <input type="checkbox" onclick="showPassword()">Show Password
+                <input type="checkbox" onclick="showPassword()"> Show Password
             </div>
-			<button type="submit" class="btn btn-primary">Login</button>
+			<button type="submit" class="btn btn-primary submit-btn">Login</button>
 		</form>
         </div>
         </div>
