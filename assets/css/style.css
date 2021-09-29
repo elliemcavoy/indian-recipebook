@@ -156,12 +156,14 @@ text-transform: uppercase;
 
 }
 
+
 .recipeitemcontainer{
     background-color: #6b6b69;
     margin:5px;
+    margin-top:20px;
     padding-top:10px;
     padding-bottom:10px;
-    border-radius: 1%;
+    border-radius: 10px;
 }
 .card1{
     text-align:center;
@@ -179,73 +181,27 @@ text-transform: uppercase;
 
 .viewbutton{
     background-color: rgb(238, 136, 20);
+    width:40%;
+    border:0px;
+    border-radius:10px;
 }
 
-.grey-banner{
-    background-color: #6b6b69;
-    height:200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.about-text h2{
+    color:rgb(238, 136, 20);
 }
 
-.sketch-img img{
+.body-img{
     margin:20px;
-    border-radius: 50%;
-    box-shadow:0 0 65px #fa8397dc;
-    width:70%;
-    height:400px;
     
 }
 
-
-
-.recipes-heading{
-    text-align: center;
-}
-
-.round-image{padding:10px;
+.body-img i{
+    font-size: 100px;
+    color: #6b6b69;
     
-}
 
-.round-image img{
-    text-align: center;
-    width:77%;
-    height:85%;
-    border-radius:50%;
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-}
-
-.recipe-title{
-    text-align:center;
-    text-transform: uppercase;
 }
 
 
-.treatments{
-    background-color: #6b6b69;
-    color: pink;
-    text-transform: uppercase;
-    text-align: center;
-    height:400px;
-    
-    
-}
 
-#bubble2{
-    left:40%;
-    top:5%;
-    text-align: center;
-    
-}
 
-.treatments h2{
-    padding-top:20px;
-    font-size: 35px;
-}
-
-#bubble2 img{
-    width:150px;
-    padding-top:20px;
-}
