@@ -202,6 +202,14 @@ text-transform: uppercase;
 
 }
 
+.form-container{
+    padding-top:20px;
+    display:block;
+    text-align: center;
+}
 
-
-
+form{
+    display:inline-block;
+    width:45%;
+    text-align:center;
+}
