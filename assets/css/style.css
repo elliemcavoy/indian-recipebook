@@ -221,16 +221,30 @@ form{
     text-align:center;
 }
 
-.recipe-heading{
+.page-heading{
     text-align:center;
     padding-top:20px;
     text-transform: uppercase;
     color:rgb(238, 136, 20);
 }
 
-.recipe-heading i{
+.page-heading i{
     color:#6b6b69;
     font-size: 32px;
+}
+
+.form-signup{
+    color:#6b6b69;
+}
+
+.form-signup label{
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+.form-signup input{
+    background-color: rgb(238, 136, 20, 0.5);
+    border:1px solid #6b6b69;
 }
 
 
