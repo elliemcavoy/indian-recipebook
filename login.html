@@ -12,6 +12,7 @@
         integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="password.js"></script>
     <title>My Indian Recipebook</title>
 </head>
 
@@ -78,116 +79,23 @@
             </nav>
         </div>
     </header>
-    <section class="main-image no-gutters">
-		
-		<div class="row container-fluid" id="logo-container">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-12 " id="logo">
-                <img src="assets/images/hero-img.jpg">
-			</div>
-			
-			<div id="bubble" class="bubble"><span>
-				<p><h3>Welcome to</h3>
-                <h2>My Indian Recipebook</h2>
-                </p>
-            </span>
-			</div>
-            <div id="button">
-                <button type="button" class="btn btn-primary login">
-                    Log In/Register
-                </button>
-            </div>
-		</div>
-	</section>
-
     <section>
-        <div class="row about">
-            <div class="col-7 inline-block">
-                <div class="about-text">
-        <h2>My Indian Recipes</h2>
-        <p>A place to share all your spicy dishes! Add and share your own recipes or find delicious recipes from fellow chefs.</p>
-             </div>
-             </div>
-             <div class="col-4 inline-block body-img">
-                <i class="fas fa-pepper-hot"></i>
-
-             </div>
+        <div class="row">
+            <div class="col-12 form-container">
+             <form method="POST" action="">
+			<div class="form-group">
+				<label for="username">Username</label>
+				<input name="username" type="text" class="form-control" placeholder="Username" required>
+			</div>
+			<div class="form-group">
+				<label for="user_password">Password</label>
+				<input class="form-control" name="password" type="password" placeholder="Password" required>
+                <input type="checkbox" onclick="showPassword()">Show Password
+            </div>
+			<button type="submit" class="btn btn-primary">Login</button>
+		</form>
+        </div>
         </div>
     </section>
-    
 
-    <section>
-        <div class="row recipeitemcontainer">
-            <div class="col-4">
-                <div class="card card1">
-                    <img class="card-img-top" src=>
-                    <div class="card-body">
-                        <h4>Chicken Korma</h4>
-                        <p>A delicious creamy dish, a classic English curry!</p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn-primary viewbutton"><a src="">View</a></button>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card card1">
-                    <img class="card-img-top" src=>
-                    <div class="card-body">
-                        <h4>Paneer Saag</h4>
-                        <p>Indian cheese with spinach and plenty of garlic!</p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn-primary viewbutton"><a src="">View</a></button>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card card1">
-                    <img class="card-img-top" src=>
-                    <div class="card-body">
-                        <h4>Lamb Bhuna</h4>
-                        <p>A spicy curry with plenty of flavour!</p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn-primary viewbutton"><a src="">View</a></button>
-                    </div>
-
-                </div>
-            </div>
-            
-        </div>
-      
-    </section>
-
-    <footer class="sticky-bottom no-gutters" id="footer">
-        <div class="no-gutters sticky-bottom">
-            <div class="row ">
-                
-                <div class="col-sm-4" id="footer-icons">
-                
-                    <p>
-                        
-                    </p>
-                </div>
-                <div class="col-sm-4 footer-logo">
-                    <img src="" alt="">
-                </div>
-                <div class="col-sm-4">
-                   
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-</body>
-</html>
+    </body>
