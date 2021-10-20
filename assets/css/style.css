@@ -283,6 +283,27 @@ form{
 }
 
 
+.recipe-container{
+    background-color: #6b6b69;
+    padding:10px;
+}
 
+.recipe-img-container{
+    height:200px;
+    background-color: white;
+    border-radius: 5px;
+}
+.card-header button{
+    text-transform: uppercase;
+    font-weight: 600;
+    color:rgb(238, 136, 20);
+    
+}
+
+.card-header{
+    border: solid 2px #6b6b69;
+    border-radius: 10px;
+
+}
 
 
