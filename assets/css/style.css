@@ -285,7 +285,7 @@ form{
 
 .recipe-container{
     background-color: #6b6b69;
-    padding:10px;
+    padding:30px;
 }
 
 .recipe-img-container{
@@ -298,6 +298,13 @@ form{
     font-weight: 600;
     color:rgb(238, 136, 20);
     
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: 600;
+    color:rgb(238, 136, 20);
+
 }
 
 .card-header{
