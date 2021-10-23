@@ -313,4 +313,13 @@ form{
 
 }
 
+.accordion-button{
+    transition:none;
+}
+.accordion-button:not(.collapsed){
+    text-transform: uppercase;
+    font-weight: 600;
+    color:rgb(238, 136, 20);
+    background-color: #fff;}
+
 
